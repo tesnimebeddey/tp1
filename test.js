@@ -82,4 +82,23 @@ console.log(notes);
 
 function sup10(note){
     return note>10};
+
 console.log('notes sup a 10 '+notes.filter(sup10))
+//partie 3
+//ex8
+const wait = ms => new Promise(res => setTimeout(res, ms));
+console.log("debut");
+
+wait(2000).then(()=>console.log("fin"));
+
+async function getPosts() {
+  let d = await fetch("https://jsonplaceholder.typicode.com/posts");
+  let result = await d.json();
+  console.log('les 5 premiers posts');
+  for(let i=0;i<5;i++){
+    console.log(result[i])
+  }
+}
+
+getPosts();
+
