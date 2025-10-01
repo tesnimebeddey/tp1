@@ -89,9 +89,7 @@ ul#taskList li button {
     font-size: 14px;
 }
 
-/
-ul#taskList li button:first-of-type {
-    margin-right: 10px; 
+
 #compteurEnCours, #compteurTerminees {
     text-align: center;
     font-weight: bold;
@@ -114,4 +112,5 @@ h1 {
     text-align: center;
     color: #6b46c1;
     margin: 0 0 15px 0;
+
 }
