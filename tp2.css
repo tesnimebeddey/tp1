@@ -1,0 +1,117 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2eafa; /* lilas très clair */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+    margin: 0;
+}
+
+
+.container {
+    background-color: #ffffff;
+    width: 360px; 
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+h1 {
+    text-align: center;
+    color: #6b46c1; /
+    margin: 0;
+}
+
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    border: 2px solid #d3bffa; 
+    outline: none;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type="text"]::placeholder {
+    color: #a78bfa; 
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 12px;
+    border: none;
+    background-color: #9f7aea; 
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #805ad5; }
+
+
+ul#taskList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+ul#taskList li {
+    background-color: #f3ebfd; 
+    border-radius: 12px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+}
+
+ul#taskList li span {
+    flex-grow: 1;
+}
+
+ul#taskList li button {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+/
+ul#taskList li button:first-of-type {
+    margin-right: 10px; 
+#compteurEnCours, #compteurTerminees {
+    text-align: center;
+    font-weight: bold;
+    color: #6b46c1;
+    background-color: #f3ebfd;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+#recherche {
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    border: 2px solid #d3bffa;
+    outline: none;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    color: #6b46c1;
+    margin: 0 0 15px 0;
+}
